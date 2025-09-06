@@ -4,12 +4,18 @@
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
+
 body {
-     background: linear-gradient(
-    to left,
-    rgb(44, 42, 42),
-    rgb(204, 203, 203)
-  );
+
+    background-image: url("./assets/fundo2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    min-width: 100vh;
+    margin: 0;
 }
 
 header {
@@ -19,17 +25,31 @@ header {
     border-radius: 50px;
     justify-content: space-around;
 }
+
 .h1-header {
-    font-size: 20px;
+    font-size: 50px;
+    font-weight: 700;
     display: flex;
     padding: 12px 50px;
-    color:  #F9F9F9;
-    
+    color: #F9F9F9;
+   background: linear-gradient(90deg, #02fca4,#09abcf,#8540d4);
+    background-clip: text;
+    color: transparent;
+    animation: glide 4s linear infinite;
+
 }
+
+
 a {
-    color:  #F9F9F9;
-    padding: 15px;
+    color: #F9F9F9;
+    padding: 10px;
+    text-decoration: double;
+    background: linear-gradient(90deg, #20e7a2,#09abcf,#8540d4);
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 3px 6px #F9F9F9;
 }
+
 .div-links {
     display: flex;
     align-items: center;
@@ -41,30 +61,30 @@ main {
     align-items: center;
 }
 
-.h1-name {
+.h2-name {
     font-size: 25px;
-    color: #3d3b3b;
+    font-weight: 750;
+    color: #fcfafa;
 }
 
-.front-end{
-    color:  #494848;
+.front-end {
+    color: #faf8f8;
     margin: 15px;
+    font-family: 'Kalam', cursive;
 }
+
 .jean-rocha {
     width: 250px;
     border-radius: 50%;
     margin: 25px 0 0 100px;
-    box-shadow: 2px 8px 16px #828282;
+    filter: drop-shadow(2px 8px 16px #dddbdb) 
 }
 
-p{
-    color: #F9F9F9;
-    font-family: 'Kalam', cursive;
-}
+
 .about-me {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     margin: 50px 350px;
     text-align: center;
     font-size: 15px;
@@ -74,16 +94,41 @@ p{
     flex-direction: column;
 
 }
-.h1-me {
+.p-me {
+    margin: 20px 0 20px 0;
+}
+
+#btnSobreMim {
+    color: #F9F9F9;
     padding: 10px;
+    text-decoration: double;
+   background: linear-gradient(90deg, #20e7a2,#09abcf,#8540d4);
+    border-radius: 12px;
+    box-shadow: 2px 3px 6px #F9F9F9;
+}
+
+#textoSobreMim {
     text-align: center;
+    width: 400px;
     color: #F9F9F9;
 }
+
+.h2-me {
+    padding: 10px;
+    text-align: center;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 25px;
+
+}
+
 .contats {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .div-icons {
     display: flex;
     align-items: center;
@@ -92,9 +137,10 @@ p{
 }
 
 h2 {
-    color:  #828282;
+    color: #828282;
     font-size: 15px;
 }
+
 .pcontats {
     font-size: 12px;
 }
@@ -105,7 +151,7 @@ h2 {
     margin: 100px;
     flex-flow: row wrap;
 }
-    
+
 
 
 .h1-pro {
@@ -113,24 +159,27 @@ h2 {
     text-align: center;
 }
 
-.tecnologs{
-    color:  #828282;
+.tecnologs {
+    color: #828282;
     font-size: 16px;
 }
+
 h3 {
     color: #F9F9F9;
     font-size: 18px;
 }
-.project1{
+
+.project1 {
     width: 300px;
     margin: 30px 50px;
     background: #333333;
     border-radius: 5px;
     padding: 0 0 20px 15px;
-    border-bottom: 5px solid #2b3b32 ;
+    border-bottom: 5px solid #2b3b32;
     box-shadow: 5px 8px 16px #828282;
 
 }
+
 .img {
     width: 250px;
     height: 150px;
@@ -144,24 +193,26 @@ h3 {
     align-items: center;
 }
 
-.csites{
-     width: 150px;
+.csites {
+    width: 150px;
     margin: 30px 50px;
     background: #333333;
     border-radius: 8px;
-    border-bottom: 3px solid #00DF5E ;
+    border-bottom: 3px solid #00DF5E;
     box-shadow: 5px 8px 16px #828282;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+
 }
+
 .code {
     width: 50px;
     margin: 10px 30px 50px 5px;
 }
-h4{
+
+h4 {
     color: #F9F9F9;
     font-size: 20px;
     text-align: center;
@@ -172,7 +223,7 @@ h4{
     margin: 30px 50px;
     background: #333333;
     border-radius: 8px;
-    border-bottom: 3px solid #00DF5E ;
+    border-bottom: 3px solid #00DF5E;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,19 +238,36 @@ h4{
     .h1-header {
         font-size: 20px;
         margin: 12px 100px 10px 25px;
-        color:  #F9F9F9;
-        
+        color: #F9F9F9;
+
     }
+
     .div-main {
         margin: 20px 10px;
     }
+
     .div-img {
         margin-left: 20px;
     }
+
     .about-me {
         text-align: center;
         margin: 15px 100px;
         font-size: 15px;
     }
- 
+
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #333333;
+}
+
+@keyframes glide {
+    to {
+        background-position-x: -900px;
+    }
 }
