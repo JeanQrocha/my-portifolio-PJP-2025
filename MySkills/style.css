@@ -1,0 +1,53 @@
+.img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+.myskills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.csites {
+    width: 150px;
+    margin: 30px 50px;
+    background: #333333;
+    border-radius: 8px;
+    border-bottom: 3px solid #00DF5E;
+    box-shadow: 5px 8px 16px #828282;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.code {
+    width: 50px;
+    margin: 10px 30px 50px 5px;
+}
+
+h4 {
+    color: #F9F9F9;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tecnos {
+    width: 150px;
+    margin: 30px 50px;
+    background: #333333;
+    border-radius: 8px;
+    border-bottom: 3px solid #00DF5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin: 20px 15px;
+}

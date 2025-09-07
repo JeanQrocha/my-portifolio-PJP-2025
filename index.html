@@ -21,47 +21,61 @@
             <a href="./myskills.html">Habilidades</a>
         </div>
     </header>
-    <main>
-        <div class="div-main">
+
+
+    <main class="div-main">
+        <section class="section-hidden">
             <h2 class="h2-name"> Olá, tudo bem? <br>
                 Me chamo Jean Quintiliano Rocha</h2>
             <p class="front-end">Desenvolvedor Front-End</p>
 
-            <button id="btnSobreMim" class="h2-me">Sobre mim ▼</button>
-            <div id="textoSobreMim">
-                <p class="p-me">Tenho 29 anos, atualmente estou aprendendo a programar no curso Jovem Programado. Quero me tornar
-                    um programador futuramente, vou correr atras da minha graduação e continuar estudando pra sempre
-                    estar atualizado na area da tecnologia.</p>
-                    <div class="div-music">
-                        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4y9JsPoUxNyCutFhR7ImkZ?utm_source=generator" width="300" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4rFV6vZRBeot4BBEz4TbZk?utm_source=generator" width="300" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                    </div>
-            </div>
+            <button id="btnSobreMim">
+                Sobre mim <span class="arrow">▼</span>
+            </button>
 
-        </div>
-        <div class="div-img">
+            <div id="textoSobreMim" class="hidden">
+                <p class="p-me">Tenho 29 anos, atualmente estou estudando HTML, CSS, JAVASCRIPT, REACT no curso Jovem Programado. Quero
+                    me tornar um programador futuramente...</p>
+                <div class="music-div">
+                    <h2 class="h2-music">Musicas favoritas</h2>
+                    <iframe data-testid="embed-iframe" style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/4y9JsPoUxNyCutFhR7ImkZ?utm_source=generator"
+                        width="300" height="100" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                    <iframe data-testid="embed-iframe" style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/4rFV6vZRBeot4BBEz4TbZk?utm_source=generator"
+                        width="300" height="100" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+        </section>
+
+        </section>
+        <section class="div-img">
             <img src="./assets/minha foto.jpg" alt="foto-de-Jean-Quintiliano-Rocha" class="jean-rocha">
-        </div>
+        </section>
     </main>
 
 
     <section class="contats">
-        <div class="div-icons">
-            <img src="./assets/icone-github-verte.png" alt="emoji-github" class="github" width="32px">
-            <a href="https://github.com/JeanQrocha" target="_blank" class="pcontats">Github</a>
-        </div>
-        <div class="div-icons">
-            <img src="./assets/linkedin.png" alt="emoji-linkedin" class="linkedin" width="32px">
-            <a href="https://www.linkedin.com/in/jeanquintilianorocha/" target="_blank" class="pcontats">Linkedin</a>
-        </div>
+        <a href="https://github.com/JeanQrocha" target="_blank" class="contact-btn">
+            <img src="./assets/icone-github-verte.png" alt="GitHub" width="30px" height="30px">
+            <span>Github</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/jeanquintilianorocha/" target="_blank" class="contact-btn">
+            <img src="./assets/linkedin.png" alt="LinkedIn" width="30px" height="30px">
+            <span>LinkedIn</span>
+        </a>
     </section>
 
     </section>
-<footer>
-   <p>
-       &copy Todos os direitos reservados
-   </p>
-</footer>
+    <footer>
+        <p>
+            &copy Todos os direitos reservados
+        </p>
+    </footer>
 
 
 

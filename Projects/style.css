@@ -1,0 +1,27 @@
+
+
+.h1-pro {
+    color: #F9F9F9;
+    text-align: center;
+}
+
+.tecnologs {
+    color: #828282;
+    font-size: 16px;
+}
+
+h3 {
+    color: #F9F9F9;
+    font-size: 18px;
+}
+
+.project1 {
+    width: 300px;
+    margin: 30px 50px;
+    background: #333333;
+    border-radius: 5px;
+    padding: 0 0 20px 15px;
+    border-bottom: 5px solid #2b3b32;
+    box-shadow: 5px 8px 16px #828282;
+
+}

@@ -1,18 +1,19 @@
 
-  const btn = document.getElementById("btnSobreMim");
-  const texto = document.getElementById("textoSobreMim");
-  window.onload = () => {
-    texto.style.display = "none";
-  }
+const btn = document.getElementById("btnSobreMim");
+const texto = document.getElementById("textoSobreMim");
 
-  btn.addEventListener("click", () => {
-    if (texto.style.display === "none") {
-      texto.style.display = "block";
-      btn.textContent = "Esconder ▲";
-      btn.classList.add("ativo");
-    } else {
-      texto.style.display = "none";
-      btn.textContent = "Sobre mim ▼";
-       btn.classList.remove("ativo");
-    }
-  });
+window.onload = () => {
+  texto.classList.remove("mostrar");
+};
+
+btn.addEventListener("click", () => {
+  const arrow = btn.querySelector(".arrow");
+
+  if (texto.classList.contains("mostrar")) {
+    texto.classList.remove("mostrar");
+    btn.classList.remove("open");
+  } else {
+    texto.classList.add("mostrar");
+    btn.classList.add("open");
+  }
+});
