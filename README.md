@@ -28,5 +28,5 @@ O portfólio possui as seguintes seções principais:
 
 - **HTML** — Estrutura básica da página.  
 - **CSS** — Estilização visual.  
-- **JavaScript** (opcional) — Para interações dinâmicas no futuro.  
+- **JavaScript** — Para interações dinâmicas no futuro.  
 - **Hospedagem** — GitHub Pages.
