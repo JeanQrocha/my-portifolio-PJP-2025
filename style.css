@@ -393,6 +393,8 @@ footer {
     padding: 15px;
     text-align: center;
     background-color: #333333;
+    bottom: 0;
+    position: fixed;
 }
 
 @media screen and (max-width: 1024px) {
