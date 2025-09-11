@@ -285,6 +285,9 @@ h4{
     justify-content: center;
     align-items: center;
 }
+.p-apr {
+    font-size: 12px;
+}
 
 .csites {
     width: 150px;
